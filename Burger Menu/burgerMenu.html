@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Burger Menu</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='burgerMenu.css'>
+
+</head>
+
+<body>
+    <h1>Make Your Own Burger Menu</h1>
+    <div class="condiment">
+        Type of Patty:
+        <br><input type="radio" id="patty1" name="patty" value="Chicken" />
+        <label for="Chicken">Chicken</label>
+        <br><input type="radio" id="patty2" name="patty" value="Beef" />
+        <label for="Beef">Beef</label>
+    </div>
+
+    <div class="condiment">
+        Name of Sauce:
+        <input type="text" id="sauce" />
+    </div>
+
+    <div class="condiment">
+        Name of Spice:
+        <br><input type="radio" id="spice1" name="spice" value="Peri Peri" />
+        <label for="periperi">Peri Peri</label>
+        <br><input type="radio" id="spice2" name="spice" value="Pepper" />
+        <label for="pepper">Pepper</label>
+        <br><input type="radio" id="spice3" name="spice" value="Garlic" />
+        <label for="garlic">Garlic</label>
+
+    </div>
+
+    <div class="condiment">
+        First Vegetable:
+        <input type="text" id="veggie1" />
+    </div>
+
+    <div class="condiment">
+        Second Vegetable:
+        <input type="text" id="veggie2" />
+    </div>
+
+    <div>
+        Price:
+        <input type="text" id="price" value="R" />
+    </div>
+
+    <div>
+        <button id="confirm">Add to Menu</button>
+    </div>
+
+    <div id="menu">
+
+    </div>
+
+    <script src='burgerMenu.js'></script>
+</body>
+
+</html>
